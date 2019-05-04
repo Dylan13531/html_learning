@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>第一节 HTML常用标签</title>
+<style> p{margin:0 auto; text-indent:1cm}</style>
+</head>
+
+<body>
+<h1 align="center"><font size="10">第一节 HTML 常用标签</font></h1>
+<hr style="height:2px;border:none;border-top:3px solid #00CED1;"/>
+<h2 align="left">&emsp;&ensp;1、文本标题</h2>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;h#&gt;&lt;/h#&gt;</font></font></p>
+<p><font size="5">说明：</font></p>
+<p><font size="5">其中#可以选择1—6；</font></p>
+<p><font size="5">文本标题（h1-h6）</font></p>
+<p><font size="5">&lt;h1&gt;一级标题 &lt;/h1&gt;</font></p>
+<p><font size="5">&lt;h2&gt;二级标题 &lt;/h2&gt;</font></p>
+<p><font size="5">&lt;h3&gt;三级标题 &lt;/h3&gt;</font></p>
+<p><font size="5">...</font></p>
+<p><font size="5">&lt;h6&gt;六级标题 &lt;/h6&gt;</font></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2 align="left">&emsp;&ensp;2、字符及字符实体</h2>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;i&gt;&lt;/i&gt;&nbsp;|&nbsp;&lt;em&gt;&lt;/em&gt;</font></font></p>
+<p><font size="5">说明：倾斜标记</font></p>
+<p><font size="5">例句：我是<i>杨意滨</i>。&emsp; (我是&lt;i&gt;杨意滨&lt;/i&gt;)</font></p>
+<p><font size="5">例句：她是<em>郭佳敏</em>。&emsp; (她是&lt;em&gt;郭佳敏&lt;/em&gt;)</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;b&gt;&lt;/b&gt;&nbsp;|&nbsp;&lt;strong&gt;&lt;/strong&gt;</font></p>
+<p><font size="5">说明：加粗标记</font></p>
+<p><font size="5">例句：我是<b>杨意滨</b>。&emsp; (我是&lt;b&gt;杨意滨&lt;/b&gt;)</font></p>
+<p><font size="5">例句：她是<strong>郭佳敏</strong>。&emsp; (她是&lt;strong&gt;郭佳敏&lt;/strong&gt;)</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;u&gt;&lt;/u&gt;</font></p>
+<p><font size="5">说明：下划线标记</font></p>
+<p><font size="5">例句：我是<u>杨意滨</u>。&emsp; (我是&lt;u&gt;杨意滨&lt;/u&gt;)</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;br&nbsp;/&gt;</font></p>
+<p><font size="5">说明：空标记，用来设置字体换行</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;hr&nbsp;/&gt;</font></p>
+<p><font size="5">说明：空标记，用做水平线</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;p&gt;&lt;/p&gt;</font></p>
+<p><font size="5">说明：段落标记，标记一个段落（段落与段落之间有段间距）</font></p>
+<br/>
+<br/>
+<p><font size="5">什么是字符实体？</p>
+<br/>
+<br/>
+<p><font size="5">在往HTML文档中写入特殊字符，</p>
+<p><font size="5">如“&lt;”、“&gt;”、“&amp;”、“&nbsp;”等要使用特殊的代码，</font></p>
+<p><font size="5">浏览器会用HTML命令对这些特殊代码进行翻译。</font></p>
+<br/>
+<br/>
+<p><font size="5">在网页中输入特殊字符，需在HTML代码中加入以&amp;开头的字母组合或以&amp;#开头的数字。</font></p>
+<br/>
+<br/>
+<p><font size="5">常见的有：</font></p>
+<br/>
+<br/>
+<p><font size="5"><font color="#00CED1">&amp;nbsp;</font>不换行空格</font></p>
+<br/>
+<br/>
+<p><font size="5"><font color="#00CED1">&amp;gt;</font>右尖括号</font></p>
+<br/>
+<br/>
+<p><font size="5"><font color="#00CED1">&amp;lt;</font>左尖括号</font></p>
+<br/>
+<br/>
+<p><font size="5"><font color="#00CED1">&amp;copy;</font>备案中图标</font></p>
+<p><font size="5">例句：&copy;</font></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2 align="left">&emsp;&ensp;3、常用元素</h2>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;div&gt;&lt;/div&gt;</font></font><p>
+<p><font size="5">说明：&lt;div&gt;标签可以把文档分割为独立的、不同的部分。它可以用作严格的组织工具，并且不使用任何格式与其关联。</font></p>
+<p><font size="5">如果用id 或 class 来标记&lt;div&gt;，那么该标签的作用会变得更加有效。</font></p>
+<p><font size="5">例句：</font></p>
+<div style="width:100px; height:100px; background:#f00;">&emsp;&ensp; 我是杨意滨</div>
+<br/>
+<br/>
+<p><font size="5">语法：<font color="#00CED1">&lt;span&gt;&lt;/span&gt;</font></p>
+<p><font size="5">说明：&lt;span&gt;&lt;/span&gt;文本节点可以是某一小段文本，或是某一个字。</font></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2 align="left">&emsp;&ensp;4、列表的应用</h2>
+<br/>
+<br/>
+<p><font size="5">HTML中有三种列表，分别是：</font></p>
+<br/>
+<br/>
+<p><font size="5">&hearts;无序列表（ul）</font></p>
+<br/>
+<br/>
+<p><font size="5">&hearts;有序列表（ol）</font></p>
+<br/>
+<br/>
+<p><font size="5">&hearts;自定义列表（dl）</font></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<p><font size="5">无序列表</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：</font></p>
+<p><font size="5">&lt;ul&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;列表项内容&lt;/li&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;列表项内容&lt;/li&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;列表项内容&lt;/li&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;..........&lt;/li&gt;</font></p>
+<p><font size="5">&lt;/ul&gt;</font></p>
+<p><font size="5">例句：</font></p>
+<ul>
+    <li>山东</li>
+    <li>吉林</li>
+    <li>辽宁</li>
+    <li>甘肃</li>
+    <li>北京</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<br/>
+<p><font size="5">有序列表</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：</font></p>
+<p><font size="5">&lt;ol&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;列表项内容&lt;/li&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;列表项内容&lt;/li&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;列表项内容&lt;/li&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;li&gt;..........&lt;/li&gt;</font></p>
+<p><font size="5">&lt;/ol&gt;</font></p>
+<p><font size="5">例句：</font></p>
+<ol>
+    <li>山东</li>
+    <li>吉林</li>
+    <li>辽宁</li>
+    <li>甘肃</li>
+    <li>北京</li>
+</ol>
+<br/>
+<br/>
+<br/>
+<br/>
+<p><font size="5">自定义列表</font></p>
+<br/>
+<br/>
+<p><font size="5">语法：</font></p>
+<p><font size="5">&lt;dl&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dt&gt;名词1&lt;/dt&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;解释内容1&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;解释内容2&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;解释内容3&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;.........&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dt&gt;名词2&lt;/dt&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;解释内容1&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;解释内容2&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;解释内容3&lt;/dd&gt;</font></p>
+<p><font size="5">&ensp;&emsp;&lt;dd&gt;.........&lt;/dd&gt;</font></p>
+<p><font size="5">&lt;/dl&gt;</font></p>
+<p><font size="5">例句：</font></p>
+<dl>
+    <dt>山东</dt>
+    <dd>山东，简称“鲁”，是中华人民共和国省级行政区。省会济南，位于中国东部沿海，山东界于北纬34°22.9′-38°24.01′，东经114°47.5′-122°42.3′之间，自北而南与河北、河南、安徽、江苏4省接壤，山东省总面积15.71万平方千米。 </dd>
+    <dd>山东地势中部山地突起，西南、西北低洼平坦，东部缓丘起伏，地形以山地丘陵为主，东部是半岛，西部及北部属华北平原，中南部为山地丘陵，形成以山地丘陵为骨架，平原盆地交错环列其间的地貌，类型包括山地、丘陵、台地、盆地、平原、湖泊等多种类型；地跨淮河、黄河、海河、小清河和胶东五大水系。山东省气候属暖温带季风气候。</dd>
+    <dd>截至2019年1月，山东省辖济南、青岛、淄博、枣庄、东营、烟台、潍坊、济宁、泰安、威海、日照、临沂、德州、聊城、滨州、菏泽16个地级市，县级单位137个（市辖区55个、县级市26个、县56个），乡镇级行政单位1824个（街道办事处660个、镇1094个〔回族镇4〕、乡70个）</dd>
+    <dt>辽宁</dt>
+    <dd>吉林，简称“吉”，是中华人民共和国省级行政区。省会长春，地处中国东北地区中部，吉林界于北纬40°50′-46°19′，东经121°38′-131°19′之间，南邻辽宁，西接内蒙古，北与黑龙江相连，东与俄罗斯接壤，东南与朝鲜相望，吉林省总面积18.74万平方千米。</dd>
+    <dd>吉林省地貌形态差异明显。地势由东南向西北倾斜，呈现出东南高、西北低的特征。以中部大黑山为界，可分为东部山地和中西部平原两大地貌。东部山地分为长白山中山低山区和低山丘陵区，中西部平原分为中部台地平原区和西部草甸、湖泊、湿地、沙地区；地跨图们江、鸭绿江、辽河、绥芬河、松花江五大水系。吉林省位于中纬度欧亚大陆的东侧，属于温带大陆性季风气候。</dd>
+    <dd>截至2017年底，吉林省下辖8个省辖市、1个自治州，20个县级市，16个县，3个自治县，21个市辖区。</dd>
+</dl>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2 align="left">&emsp;&ensp;5、超链接和文本</h2>
+<br/>
+<br/>
+<p><font size="5">超链接</font></p>
+</body>
+</html>
